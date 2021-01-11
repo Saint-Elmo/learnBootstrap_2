@@ -1,0 +1,44 @@
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    #main-text {
+        text-align: center;
+    }
+    #main-description {
+        margin: 20px auto;
+        width: auto;
+    }
+    #main-system {
+        justify-content: center;
+    }
+    .system-item:nth-child(3) {
+        margin-right: 0;
+    }
+    #form-input {
+        margin-right:0;
+        width: 100%;
+    }
+    #form-btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .feature-text, #feature-description, #touch-description {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad{
+        width: 100%;
+    }
+    #menu-items {
+        flex-direction: column;
+    }
+    .menu-item {
+        text-align: center;
+        margin-bottom:10px;
+    }
+}
